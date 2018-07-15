@@ -5,3 +5,5 @@ This code just retrieves my BGL measurement from a [NightScout server](https://g
 
 To use this code, you'll need to set the `ssid` and `passwd` for a wifi network in `boot.py`,
 and replace `MY-NIGHTSCOUT-URL` in `main.py`.
+
+This is a little first demo project - you should not use it to monitor your blood sugar! It contains no error checking and there are several conditions that can cause it to give a false result.
